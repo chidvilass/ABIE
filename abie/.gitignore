@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Streamlit
+.streamlit/
+
+# Local env secrets
+abie/.env
+
+# Chroma persistence (optional: ignore if you don't want embeddings committed)
+abie/chroma_store/
